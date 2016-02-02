@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select symptoms"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        tools:ignore="HardcodedText" />
+
+    <CheckBox
+        android:id="@+id/cbHeadache"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Headache" />
+
+    <CheckBox
+        android:id="@+id/cbFever"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fever" />
+
+    <CheckBox
+        android:id="@+id/cbStomach"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stomachache" />
+
+    <CheckBox
+        android:id="@+id/cbDiarrhoea"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Diarrhoea" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="any other condition"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        tools:ignore="HardcodedText" />
+
+    <CheckBox
+        android:id="@+id/cbDisability"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Disability" />
+
+    <CheckBox
+        android:id="@+id/cbHiv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HIV (+)" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OK"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/bExit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CLEAR"
+        tools:ignore="HardcodedText" />
+
+</LinearLayout>

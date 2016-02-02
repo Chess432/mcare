@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">M-CARE</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name ="prompt">select gender</string>
+    
+    <string-array name="gender">
+        <item>male</item>
+         <item>female</item>
+        
+    </string-array>
+
+</resources>
